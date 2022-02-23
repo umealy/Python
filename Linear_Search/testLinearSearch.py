@@ -4,7 +4,7 @@ from parameterized import parameterized
 from LinearSearch import linearSearch
 
 
-class TestSubarray(unittest.TestCase):
+class TestLinearSearch(unittest.TestCase):
     @parameterized.expand([
         [1, [2,3,4], 3],
         [None,[5,6], 9],
